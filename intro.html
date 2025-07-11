@@ -2,14 +2,16 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>創作者自我介紹</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="高一新生鍾杰勳的自我介紹，包含興趣、學習方向與聯絡方式。">
+  <title>鍾杰勳的自我介紹</title>
   <style>
     body {
       font-family: "Segoe UI", sans-serif;
       background-color: #f9f9f9;
       color: #333;
       padding: 20px;
-      text-align: center; /* ✅ 置中所有文字與區塊 */
+      text-align: center;
     }
     h1 {
       color: #4a90e2;
@@ -18,43 +20,56 @@
       max-width: 800px;
       margin: 10px auto;
       line-height: 1.8;
-      text-align: left; /* ✅ 保持段落文字易讀性 */
+      text-align: left;
+    }
+    .photo-container {
+      margin-top: 30px;
+    }
+    .photo-container img {
+      width: 200px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
     .button-group {
-      margin-top: 30px;
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     .button-group a {
       display: inline-block;
-      margin: 10px 10px 0 0;
+      margin: 10px;
       padding: 10px 16px;
       background-color: #4a90e2;
       color: white;
       text-decoration: none;
       border-radius: 6px;
+      transition: background-color 0.3s ease;
     }
     .button-group a:hover {
       background-color: #357ac8;
     }
+    @media (max-width: 600px) {
+      p {
+        padding: 0 10px;
+        text-align: justify;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>創作者自我介紹</h1>
+  <h1>鍾杰勳的自我介紹</h1>
 
-  <div style="margin-top: 30px;">
-    <img src="my_photo.jpg" alt="作者照片" width="200" style="border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  <div class="photo-container">
+    <img src="my_photo.jpg" alt="鍾杰勳的照片" loading="lazy">
   </div>
   
-  <p>大家好！我是中國文化大學資訊管理學系王福星教授兼系主任暨所長 。</p>
-  <p>文化資管系設有AI組(A班)和BI組(B班)，115學年度將再增加資安組。</p>
-  <p>文化資管系幫助您習得最夯的資訊專長、商管專長。</p>
-  <p>本系同學可選擇在校本部(陽明山)，或在建國校區(大安森林公園旁)、延平校區(西門町旁)上課。</p>
-  <p>我們很重視學生的健全品格，並安排豐富的課外活動，如系學會、社團、跨領域(如韓文、金融、傳播、運動…)</p>
-  <p>文化資管113學年獲勞動部補助兩個就業學程:1.人工智慧實務學程 2. 資安威脅趨勢、防護與實務操作人才培育實務學程。</p>
-  <p>就業學程協助學生到資訊公司實習、順利就業。</p>
-  <p>文化資管的合作公司有凌羣電腦、國泰世華、長榮航空、國眾電腦、行動貝果、安碁電腦 (Acer 的資安公司)</p>
-  <p>聯寶電腦 (Lenovo 的子公司)、雄獅科技、騰雲科技…上市公司。</p>
-  <p>為了方便同學實習，西門町旁設有本校的內江宿舍，大四同學可以1天在建國校區上課，4天在公司實習。</p>
-  <p>有任何未來就讀的想法都可以跟我討論，我的 LINE ID: 0988014077。</p>
+  <p>大家好，我是鍾杰勳，目前剛升上高一，對未來充滿期待與好奇。</p>
+  <p>我個性開朗、樂觀，喜歡嘗試新事物，也願意接受挑戰，不怕失敗。</p>
+  <p>我的興趣包含打籃球、聽音樂、玩電腦，特別對科技和AI有濃厚興趣。</p>
+  <p>我希望在高中三年能學好基礎知識，發現自己的專長，為未來大學或職涯做準備。</p>
+  <p>我也很喜歡團隊合作，參加學校社團或活動時，總是能積極參與、配合大家。</p>
+  <p>如果你對我有興趣，或想認識新朋友，歡迎找我聊天！</p>
 
   <div class="button-group">
     <a href="index.html">回主頁</a>
